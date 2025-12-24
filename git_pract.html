@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MediNest | Smart Healthcare App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: #f4f8fb;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #0d6efd;
+            padding: 20px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 40px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: #0d6efd;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .hero button {
+            padding: 14px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            background: #0d6efd;
+            color: white;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background: #084298;
+        }
+
+        /* Features */
+        .features {
+            padding: 60px 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            background: #f4f8fb;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            margin-bottom: 10px;
+            color: #0d6efd;
+        }
+
+        /* Footer */
+        footer {
+            background: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MediNest</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Your Smart Healthcare Companion</h2>
+    <p>
+        MediNest helps you manage medicines, track health records,
+        and book appointments — all in one secure platform.
+    </p>
+    <button>Get Started</button>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>💊 Medicine Management</h3>
+        <p>Track prescriptions, dosage reminders, and refill alerts.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>📊 Health Records</h3>
+        <p>Store and access medical reports securely anytime.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>🩺 Doctor Appointments</h3>
+        <p>Book and manage doctor visits with ease.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 MediNest. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
